@@ -1,0 +1,316 @@
+
+ 
+body{
+	background-color:#dddddd;
+	background-image:url("background 1.png");
+	  background-size: 1300px;
+	  background-repeat:no-repeat;
+	  background-attachment:fixed;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+nav{
+ background-color:#594df5;
+  height: 80px;
+  width: 100%;
+  
+}
+
+nav ul{
+  float: right;
+  margin-right: 60px;
+}
+nav ul li{
+	 
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 2px;
+  
+}
+nav ul li a{
+  color:#000000;
+  font-weight: 1000;
+  font-size: 16px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  font-family:  serif;;
+}
+a.active,a:hover{
+  background: #dddddd;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+#main{
+	border-radius:10px;
+	width:1000px;
+	height:250px;
+	background-image:url("banner.gif");
+	margin:25px auto;
+	border:solid 2px #594df5;
+	
+}
+
+	#main3{
+	border-radius:10px;
+	width:450px;
+	height:500px;
+	margin:25px auto;
+	border:solid 2px #594df5;
+	background-image:url("TOP-1.gif");
+}
+	#main2{
+	border-radius:10px;
+	width:1000px;
+	height:500px;
+	margin:25px auto;
+	border:solid 2px #594df5;
+	background-image:url("banner-2a.gif");
+}
+div.a {
+	width:500px;
+	padding-left:5px;
+	padding:5px;
+ font-size: 18px;
+}
+.a p{
+	padding-left:20px;
+	padding-right:15px;
+
+}
+#footer{
+	background-color:#776ef3;
+	width:300px;
+	height:30px;
+	margin-left:540px;
+	border-radius:10px;
+	border:solid 2px #594df5;
+	
+}
+#footer p{
+	
+	padding-left:4px;
+}
+#main4{
+		display:none;
+		
+		
+		
+	}
+	.music{
+		display:none;
+	}
+
+
+@media (max-width: 952px){
+
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+    margin-right: 40px;
+  }
+
+  ul{
+    position: fixed;
+    width: 80%;
+    height: 100vh;
+    background: #37A6F8;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+	
+	  
+	
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+     background: #dddddd;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+	
+  }
+  body{
+	 background:none;
+  }
+  #main
+  {
+	
+	 border-radius:10px;
+	width:450px;
+	height:250px;
+	margin:25px auto;
+	border:solid 2px #594df5;
+	background-image:url("b2.gif");
+}
+
+
+	#main2{
+		
+		display:none;
+	}
+	#main4{
+		display:block;
+		border:solid 2px #594df5;
+		
+		
+	}
+	div.b {
+	width:450px;
+	padding-left:5px;
+	padding:5px;
+ font-size: 18px;
+}
+.b p{
+	padding-left:2px;
+	padding-right:10px;
+
+}
+	
+	
+	.box1{
+	border-radius:10px;
+	width:450px;
+	height:500px;
+	margin:25px auto;
+	border:solid 2px #594df5;
+	background-image:url("b1.gif");
+	
+	}
+	
+	.b{
+	 visibility: visible;
+	
+	}
+#footer{
+	
+	margin-left:80px;
+}
+	
+	
+}
+@media (max-width: 450px){
+  .checkbtn{
+    display: block;
+    margin-right: 40px;
+  }
+
+  ul{
+    position: fixed;
+    width: 80%;
+    height: 100vh;
+    background: #37A6F8;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+	
+	  
+	
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+     background: #dddddd;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+	
+  }
+  body{
+	 background:none;
+  }
+  #main
+  {
+	
+	 border-radius:10px;
+	width:450px;
+	height:250px;
+	margin:25px auto;
+	border:solid 2px #594df5;
+	background-image:url("b2.gif");
+}
+
+
+	#main2{
+		
+		display:none;
+	}
+	#main4{
+		display:block;
+		border:solid 2px #594df5;
+		
+		
+	}
+	div.b {
+	width:450px;
+	padding-left:5px;
+	padding:5px;
+ font-size: 18px;
+}
+.b p{
+	padding-left:2px;
+	padding-right:10px;
+
+}
+	
+	
+	.box1{
+	border-radius:10px;
+	width:450px;
+	height:500px;
+	margin:25px auto;
+	border:solid 2px #594df5;
+	background-image:url("b1.gif");
+	
+	}
+	
+	.b{
+	 visibility: visible;
+	
+	}
+#footer{
+	
+	margin-left:80px;
+}
+	
+	
+}
